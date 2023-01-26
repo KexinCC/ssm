@@ -1,12 +1,12 @@
 package com.ydlclass.service.impl;
 
-import com.ydlclass.entity.YdlRole;
 import com.ydlclass.dao.YdlRoleDao;
+import com.ydlclass.entity.YdlRole;
 import com.ydlclass.service.YdlRoleService;
-import org.springframework.stereotype.Service;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.PageRequest;
+import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 

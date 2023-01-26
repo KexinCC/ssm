@@ -1,16 +1,12 @@
 package com.ydlclass.controller;
 
-import com.fasterxml.jackson.core.type.TypeReference;
 import com.ydlclass.annotation.HasPerms;
 import com.ydlclass.annotation.HasRole;
 import com.ydlclass.annotation.Log;
 import com.ydlclass.annotation.Repeat;
-import com.ydlclass.constant.Constants;
 import com.ydlclass.core.RedisTemplate;
-import com.ydlclass.entity.YdlLoginUser;
 import com.ydlclass.entity.YdlUser;
 import com.ydlclass.service.YdlUserService;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.http.ResponseEntity;
